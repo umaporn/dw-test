@@ -174,16 +174,6 @@ For very high contention (e.g. 1,000 users booking the last 10 seats), I would a
 - **Queue-based booking** (Redis/RabbitMQ) to serialize hot-concert requests
 - **Database constraints** such as a materialized seat counter checked in the same transaction
 
-## Project Structure
-
-```
-.
-├── backend/          NestJS API
-├── frontend/         Next.js app
-├── docker/           DB init scripts
-├── docker-compose.yml
-└── README.md
-```
 
 ## Notes
 
