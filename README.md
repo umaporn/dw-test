@@ -54,20 +54,6 @@ npm install
 npm run dev
 ```
 
-## Architecture Overview
-
-```
-┌─────────────┐      REST / JWT       ┌─────────────┐
-│  Next.js    │ ────────────────────► │   NestJS    │
-│  Frontend   │ ◄──────────────────── │   Backend   │
-└─────────────┘                       └──────┬──────┘
-                                             │
-                                             ▼
-                                      ┌─────────────┐
-                                      │ PostgreSQL  │
-                                      └─────────────┘
-```
-
 ### Backend modules
 
 - **Auth** — register/login, JWT issuance with role in payload
